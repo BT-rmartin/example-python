@@ -10,6 +10,8 @@ class Calculator:
         return x * y
 
     def divide(x, y):
+        # Adding comment1
         if y == 0:
+            # Adding comment2
             return 'Cannot divide by 0'
         return x * 1.0 / y
